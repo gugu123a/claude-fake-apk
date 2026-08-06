@@ -1,3 +1,5 @@
+> **关于本 README**：本仓库的 README 由咕咕（[gugu123a](https://github.com/gugu123a)）授权 Claude 代笔整理。
+
 # Claude Fake - Mobile
 
 一个披着 Claude 皮的 DeepSeek 聊天 App，Expo / React Native 构建，直接安装到 Android 手机。
@@ -77,3 +79,7 @@ eas.json                # EAS Build 配置
 ## 网络说明
 
 手机直接 HTTPS 调用 `api.deepseek.com`，国内三大运营商全部直连，无需任何代理/VPN。
+
+## 免责声明
+
+本项目仅借鉴了 Anthropic / Claude 的视觉风格，与官方无关联。模型由 DeepSeek 提供。
