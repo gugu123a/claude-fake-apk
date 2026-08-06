@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Claude",
+    "slug": "claude-fake-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#faf9f5",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gugu.claude",
+      "infoPlist": {
+        "UIStatusBarStyle": "UIStatusBarStyleDarkContent"
+      }
+    },
+    "android": {
+      "package": "com.gugu.claude",
+      "adaptiveIcon": {
+        "backgroundColor": "#faf9f5",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "deepseekApiKey": "REPLACE_WITH_YOUR_DEEPSEEK_API_KEY",
+      "eas": {
+        "projectId": "9a00b0cc-97e0-4755-bbe4-461cb954eb1f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": false
+          }
+        }
+      ]
+    ]
+  }
+}
